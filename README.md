@@ -1,17 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`pnpm dlx create-next-app@latest`] which uses [pnpm](https://pnpm.io/) for managing Dependencies.
 
-## Getting Started
+โปรเจกต์นี้ใช้ [pnpm](https://pnpm.io/) สำหรับจัดการ Dependencies.
 
-First, run the development server:
+[Youtube - CRUD in Next.js Using Zod, Shadcn, Prisma, Mongodb and SWR - Simplified.](https://www.youtube.com/watch?v=dgw029Bm0wQ&ab_channel=AdityaSingh)
 
+
+## วิธีการติดตั้งและรันโปรเจกต์
+### 1. ติดตั้ง pnpm
+ถ้ายังไม่มี `pnpm` ให้ติดตั้งผ่าน `npm` หรือ `yarn`:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+npm install -g pnpm
+# หรือ
+yarn global add pnpm
+```
+
+### 2. ติดตั้ง Dependencies
+รันคำสั่ง โดยใช้ `pnpm`:
+```bash
+pnpm install
+```
+### 3. รันโปรเจกต์
+สำหรับโหมด Development:
+```bash
 pnpm dev
-# or
-bun dev
+```
+สำหรับการ Build:
+```bash
+pnpm build
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
