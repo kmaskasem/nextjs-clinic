@@ -19,6 +19,11 @@ yarn global add pnpm
 ```bash
 pnpm install
 ```
+รันคำสั่ง `pnpm dlx prisma db push` เพื่อสร้างไฟล์ Prisma Client ไว้ซิงค์โครงสร้างฐานข้อมูล ทำให้สามารถเรียกใช้คำสั่งกับฐานข้อมูลได้
+```bash
+pnpm dlx prisma db push
+```
+
 ### 3. รันโปรเจกต์
 สำหรับโหมด Development:
 ```bash
